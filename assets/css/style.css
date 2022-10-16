@@ -16,7 +16,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #3a3a3a;
 }
 
 #logo {
@@ -42,14 +42,35 @@ h1, h2 {
 }
 #menu a {
     text-decoration: none;
-    color: :inherit;
+    color: inherit;
     
 }
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+    color: inherit
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+#menu a {
+    text-decoration: none;
+    
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.png') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 }
