@@ -73,4 +73,17 @@ h1, h2 {
     background: url('../images/hero-image.png') no-repeat;
     background-size: cover;
     background-position: center bottom;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for Hero image. */
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
 }
