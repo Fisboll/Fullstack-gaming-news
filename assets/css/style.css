@@ -85,6 +85,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+
 /* Creates the level of zoom for Hero image. */
 @keyframes hero-zoom {
     from{
@@ -120,16 +121,129 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: red;
 }
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: blue;
 }
 #center-about{
-    width: 33%;
+    width: 20%;
     margin:0 auto;
-    background-color: green;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.center-about-heading {
+    position: absolute;
+}
+
+#nintendo-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/nintendo.jpg') no-repeat;
+    background-size: cover;
+    background-position:center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#xbox-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/xbox-logo.jpg') no-repeat;
+    background-size: cover;
+    background-position:center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#pc-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pc-logo.jpg') no-repeat;
+    background-size: cover;
+    background-position:center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#playstation-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/playstation-logo.png') no-repeat;
+    background-size: contain;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+div p {
+    background-color: black;
+    color: #fff;
+}
+
+#oculus-image {
+height: 600px;
+width: 100%;
+background: url('../images/oculus-logo.jpg') no-repeat;
+background-size: cover;
+background-position:center center;
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+.right-about-heading {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    border-radius: 50%;
 }
