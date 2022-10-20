@@ -144,9 +144,6 @@ h1, h2 {
     background: url('../images/nintendo.jpg') no-repeat;
     background-size: cover;
     background-position:center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 #xbox-image {
@@ -155,9 +152,6 @@ h1, h2 {
     background: url('../images/xbox-logo.jpg') no-repeat;
     background-size: cover;
     background-position:center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 hr {
@@ -188,9 +182,6 @@ hr {
     background: url('../images/pc-logo.jpg') no-repeat;
     background-size: cover;
     background-position:center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 #playstation-image {
@@ -198,9 +189,6 @@ hr {
     width: 100%;
     background: url('../images/playstation-logo.png') no-repeat;
     background-size: contain;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 div p {
@@ -214,9 +202,6 @@ width: 100%;
 background: url('../images/oculus-logo.jpg') no-repeat;
 background-size: cover;
 background-position:center center;
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
 }
 
 .right-about-heading {
