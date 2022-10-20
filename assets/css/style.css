@@ -89,7 +89,7 @@ h1, h2 {
 /* Creates the level of zoom for Hero image. */
 @keyframes hero-zoom {
     from{
-        transform: scale(0.5);
+        transform: scale(0.8);
     }
     to{
         transform: scale(1);
@@ -231,4 +231,25 @@ background-position:center center;
 
 #circle-cover-bg {
     border-radius: 50%;
+}
+
+/* footer */ 
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
