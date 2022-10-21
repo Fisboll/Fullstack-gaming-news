@@ -257,7 +257,7 @@ footer {
 /* Form sign up */
 .form-section {
     clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url("https://www.gamespace.com/wp-content/uploads/2019/11/Gaming-Consoles-1024x576.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -266,7 +266,7 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color:#fff;
-    background-color:rgba(60, 60, 60, 0.6);
+    background-color:rgba(60, 60, 60, 0.7);
     max-width:400px;
     position:absolute;
     left:10%;
