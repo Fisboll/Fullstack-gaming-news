@@ -254,6 +254,15 @@ footer {
     color: #3a3a3a;
 }
 
+.footer-signup {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    display: inline;
+    width: 50%;
+    margin-left: 450px;
+}
+
 /* Form sign up */
 .form-section {
     clear: left;
@@ -382,5 +391,12 @@ form > a:hover {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    .footer-signup {
+        text-align: center;
+    }
+    #signup-form {
+        margin-bottom: 5px;
     }
 }
