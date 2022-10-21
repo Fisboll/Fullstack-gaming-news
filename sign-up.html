@@ -7,7 +7,7 @@
         <meta name="description" content="This will be a gaming website.">
         <meta name="keywords" content="games, gaming, consoles">
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>Sign-up</title>
+        <title>Sign up</title>
     </head>
 <body>
         <header>
@@ -34,21 +34,25 @@
                 <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
                 <label for="fname">First Name</label>
                 <input id="fname" class="text-input" name="first_name" type="text" required>
-                
                 <label for="lname">Last Name</label>
                 <input id="lname" class="text-input" name="last_name" type="text" required>
-                
                 <label for="email">Email Address</label>
                 <input type="email" class="text-input" id="email" name="email_address" required>
-                
-                <label for="road">Road</label>
-                <input type="radio" id="road" name="running_preference" value="road" required>
-                <label for="trail">Trail</label>
-                <input type="radio" id="trail" name="running_preference" value="trail" required>
-                <label for="both">Both</label>
-                <input type="radio" id="both" name="running_preference" value="both" required>
-                
-                <input class="join-button" type="submit" value="Let's Run!">
+                <label for="password">Password</label>
+                <input type="password" class="text-input" id="password" name="password" required>
+                <h3>What's is your prefered console?</h3>
+                <label for="nintendo">Nintendo</label>
+                <input type="radio" id="nintendo" name="gaming-consoles" value="road" required>
+                <label for="xbox">Xbox</label>
+                <input type="radio" id="xbox" name="gaming-consoles" value="trail" required>
+                <label for="playstation">Playstation</label>
+                <input type="radio" id="playstation" name="gaming-consoles" value="both" required>
+                <label for="pc">PC</label>
+                <input type="radio" id="pc" name="gaming-consoles" value="both" required>
+                <label for="vr">VR</label>
+                <input type="radio" id="vr" name="gaming-consoles" value="both" required>
+
+                <input class="join-button" type="submit" value="Let's Sign Up">
                 <p>Already a member?</p><a href="log-in.html">Click here to Log in</a>
             </form>
         </section>

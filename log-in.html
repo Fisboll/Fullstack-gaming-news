@@ -7,7 +7,7 @@
         <meta name="description" content="This will be a gaming website.">
         <meta name="keywords" content="games, gaming, consoles">
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>Sign-up</title>
+        <title>Log in</title>
     </head>
 <body>
         <header>
@@ -32,24 +32,11 @@
         <section class="form-section">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
-                <label for="fname">First Name</label>
-                <input id="fname" class="text-input" name="first_name" type="text" required>
-                
-                <label for="lname">Last Name</label>
-                <input id="lname" class="text-input" name="last_name" type="text" required>
-                
                 <label for="email">Email Address</label>
                 <input type="email" class="text-input" id="email" name="email_address" required>
-                
-                <label for="road">Road</label>
-                <input type="radio" id="road" name="running_preference" value="road" required>
-                <label for="trail">Trail</label>
-                <input type="radio" id="trail" name="running_preference" value="trail" required>
-                <label for="both">Both</label>
-                <input type="radio" id="both" name="running_preference" value="both" required>
-                
-                <input class="join-button" type="submit" value="Let's Run!">
-                <p><a href=""></a>Already a member? Click here to Log in</p>
+                <label for="password">Password</label>
+                <input type="password" id="password" class="text-input" name="password" required>
+                <input class="join-button" type="submit" value="Log in!">
             </form>
         </section>
 </body>

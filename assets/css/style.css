@@ -308,6 +308,18 @@ footer {
     color:#f16c6b;
 }
 
+form p, form a {
+    margin-top: 10px;
+}
+
+form > a {
+    color: #fff;
+}
+
+form > a:hover {
+ color: blue;
+}
+
 /* Media queries */
 
 /*for larger to medium screens size from 1200px wide and down */
