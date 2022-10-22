@@ -390,7 +390,7 @@ form > a:hover {
     #nintendo-image {
         background: url(../images/nintendo.jpg) no-repeat;
         background-size: contain;
-        height: 400px;
+        height: 280px;
     }
 
     #pc-image {
@@ -403,7 +403,7 @@ form > a:hover {
     #xbox-image {
         background: url(../images/xbox-logo.jpg) no-repeat;
         background-size: contain;
-        height: 400px;
+        height: 280px;
     }
 
     #menu li {
