@@ -185,7 +185,7 @@ hr {
 }
 
 #playstation-image {
-    height: 600px;
+    height: 300px;
     width: 100%;
     background: url('../images/playstation-logo.png') no-repeat;
     background-size: contain;
@@ -197,7 +197,7 @@ div p {
 }
 
 #oculus-image {
-height: 600px;
+height: 300px;
 width: 100%;
 background: url('../images/oculus-logo.jpg') no-repeat;
 background-size: cover;
