@@ -256,7 +256,7 @@ footer {
 
 .footer-signup {
     position: absolute;
-    bottom: 5px;
+    bottom: -20px;
     text-align: center;
     display: inline;
     width: 50%;
@@ -282,7 +282,7 @@ footer {
     padding:30px;
 }
 
-.signup-form > h2 {
+.signup-form > h2, .login-form > h2 {
     color:#fafafa;
     margin-bottom:20px;
 }
