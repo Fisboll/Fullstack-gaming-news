@@ -15,17 +15,35 @@
             <h1 id="logo">Gaming news</h1>
             <nav>
                 <ul id="menu">
-                    <li><a href="log-in.html" class="active">Log in</a></li>
+                    <li><a href="log-in.html">Log in</a></li>
                     <li><a href="games.html">Gallery</a></li>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li>
+                        <label for="forums">Forums:</label>
+                        <select id="forums">
+                            <option value="indext.html">Forums</option>
+                            <option value="nintendo.html" selected>Nintendo</option>
+                            <option value="xbox.html">Xbox</option>
+                            <option value="oculus.html">VR</option>
+                            <option value="pc.html">PC</option>
+                            <option value="playstation.html">Playstation</option>
+                        </select>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
                 </ul>
             </nav>
         </a>
     </header>
     <section id="hero-outer">
-        <div id="nintendo-image"></div>
+        <div id="nintendo-image" class="image-phone"></div>
         <div id="cover-text">
             <h2>Nintendo Forums.</h2>
             <h3>Where you may discuss Future Ninteno games and consoles.</h3>
         </div>
+        <script>
+            var selectedPage = document.getElementById('forums'); // Looks for an element on the page with the id of selectedPage
+           selectedPage.onchange = function(){ //Specifies a function to run when selectedPage has been changed.
+           window.location = this.value; // Reloads the page at a new window location, 'this' refers to selectedPage. If you want less confusion you could write selectedPage.value instead.
+           };
+           </script> 
 </body>
+</html>
