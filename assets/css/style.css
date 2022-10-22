@@ -62,7 +62,7 @@ h1, h2 {
 
 /* hero image */
 
-#hero-outer {
+.hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -240,7 +240,6 @@ footer {
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks > li {
@@ -256,7 +255,7 @@ footer {
 
 .footer-signup {
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
     text-align: center;
     display: inline;
     width: 50%;
@@ -329,6 +328,13 @@ form > a:hover {
  color: blue;
 }
 
+/*Forum CSS */
+
+#forum-container {
+    text-align: left;
+    width: 75%;
+}
+
 /* Media queries */
 
 /*for larger to medium screens size from 1200px wide and down */
@@ -385,12 +391,14 @@ form > a:hover {
         background-size:cover;
         background-position: center center;
         height: 280px;
+        background-color: black;
     }
 
     #nintendo-image {
         background: url(../images/nintendo.jpg) no-repeat;
         background-size: contain;
         height: 280px;
+        background-color: red;
     }
 
     #pc-image {
@@ -398,12 +406,14 @@ form > a:hover {
         background-size: cover;
         background-position:center center;
         height: 280px;
+        background-color: black;
     }
 
     #xbox-image {
         background: url(../images/xbox-logo.jpg) no-repeat;
         background-size: contain;
         height: 280px;
+        background-color: black;
     }
 
     #menu li {
@@ -443,5 +453,9 @@ form > a:hover {
 
     .signup-form {
         margin: 75px 10% 0 0;
+    }
+
+    .hero-outer {
+        height: 280px;
     }
 }
