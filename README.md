@@ -55,6 +55,8 @@ One bug I do believe I have is that I learned recently about a Flex box situtati
 Image didn't work properly so I've tired changing it, no-repeat works but everything else breaks the image into a Blank white slate.
 When I was also doing the forums I had issues with the images not covering the full pages. I worked alot with them and figured out the background-size cover worked
 
+Gallery doesn't seem to have pictures even if the pictures are added correctly in the way. When I use the python3 -m http.server I get all the pictures, but when I uploaded it the pictures all break somehow and doesn't really open up fully.
+
 ## Validator Testing 
 
 - HTML
