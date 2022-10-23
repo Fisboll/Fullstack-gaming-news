@@ -33,7 +33,8 @@ On this page we have the simple login/sign up features for new and old members t
 ## __Forums__
 
 - The forum pages are where people can make threads and discuss the future about what they think of games and consoles and future releases.
-- This has been added with a different LOGO for each picture, and it is also added feature as to change logo when the background picture can't contain itself anymore from shrinking down past 900px width on different devices so it will change into a more suitable logo to fit that work. 
+- This has been added with a different LOGO for each picture, and it is also added feature as to change logo when the background picture can't contain itself anymore from shrinking down past 900px width on different devices so it will change into a more suitable logo to fit that work.
+- The forums have a small Div section which you can't do anything with yet. It will be added in future updates when Java script would be allowed as to add a backend feature towards this. The comments/headers there are just for shows right now and will be altered maybe in future.
 
 ![Nintendo](/assets/images/readme/nintendo.png)
 ![Xbox](/assets/images/readme/xbox.png)
