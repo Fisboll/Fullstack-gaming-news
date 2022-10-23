@@ -73,6 +73,7 @@ Gallery doesn't seem to have pictures even if the pictures are added correctly i
 ## Unfixed Bugs
 
 I haven't added flex boxing to the content, so everything with an Absolute position are most likely gonna break whenever you use the Media screen to shrink and raise the text.
+This is mostly fixated against the Footer on Login/Signup section on smaller versions of screens. It's mostly the footer just being affected by this issue.
 
 ## Deployment
 
