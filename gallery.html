@@ -16,7 +16,7 @@
             <nav>
                 <ul id="menu">
                     <li><a href="log-in.html" class="active">Log in</a></li>
-                    <li><a href="games.html" class="active">Gallery</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
                     <li>
                         <label for="forums">Forums:</label>
                         <select id="forums">
@@ -32,13 +32,27 @@
                 </ul>
             </nav>
     </header>
-    <section class="hero-outer">
-        <div id="hero-image"></div>
-        <div id="cover-text">
-            <h2>Gaming news.</h2>
-            <h3>An area to discuss and find more information about games.</h3>
-        </div>
+    <section id="photos">
+        <img src="/assets/images/gallery/blood.png" alt="Bloodborne">
+        <img src="/assets/images/gallery/darksouls.png" alt="Darksouls">
+        <img src="/assets/images/gallery/fallout.png" alt="Fallout">
+        <img src="/assets/images/gallery/halo.jpg" alt="Halo">
+        <img src="/assets/images/gallery/sekiro.jpg" alt="Sekiro">
+        <img src="/assets/images/gallery/sims.png" alt="Sims">
+        <img src="/assets/images/gallery/skylines.png" alt="Skylines">
+        <img src="/assets/images/gallery/skyrim.png" alt="Skyrim">
+        <img src="/assets/images/gallery/totalwar.jpg" alt="Totalwar">
+        <img src="/assets/images/gallery/wanderer.png" alt="wanderer">
     </section>
+    <footer>
+        <ul class="social-networks-forums">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">Facebook <i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/home" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">Twitter <i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://discord.com/" target="_blank" rel="noopener" aria-label="Join our Discord(opens in a new tab)">Discord <i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/c071e38e1e.js" crossorigin="anonymous"></script>
     <script>
         var selectedPage = document.getElementById('forums'); // Looks for an element on the page with the id of selectedPage
        selectedPage.onchange = function(){ //Specifies a function to run when selectedPage has been changed.

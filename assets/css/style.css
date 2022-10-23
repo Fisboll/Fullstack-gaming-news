@@ -404,6 +404,20 @@ form > a:hover {
     font-size: 120%;
 }
 
+/* gallery */
+
+#photos {
+    background-color: #3f3f3f;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+}
+
 /* Media queries */
 
 /*for larger to medium screens size from 1200px wide and down */
@@ -432,6 +446,10 @@ form > a:hover {
 
     hr {
         display: none;
+    }
+
+    #photos {
+        column-count: 3;
     }
 }
 
@@ -527,6 +545,10 @@ form > a:hover {
 
     .hero-outer-forums {
         height: 280px;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
 
